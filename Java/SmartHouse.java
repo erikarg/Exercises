@@ -20,7 +20,7 @@ public class SmartHouse {
     }
 
     public static void main(String[] args) {
-        SmartHouse house = new SmartHouse(); // Create an instance of SmartHouse
+        SmartHouse house = new SmartHouse();
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
@@ -31,7 +31,7 @@ public class SmartHouse {
                 case "sair":
                     System.out.println("Saindo...");
                     scanner.close();
-                    return; // Exit the main method
+                    return;
 
                 case "ligar":
                     if (house.isLampTurnedOn()) {
